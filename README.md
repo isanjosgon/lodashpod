@@ -15,17 +15,14 @@ return [NSNumber numberWithInteger:value];
 NSLog(@"mapped array: %@",mapped);
 ```
 
-### How to use ###
+### Installation with CocoaPods ###
 
-Ready in 1 minute. Just following the next steps:
-* add the framework to your project (drag and drop).
-* go to your target >> General tab
-* add the lodash.framework to your 'Embedded Binaries'
-* run and done!
+Lodash is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-Final Xcode configuration
-
-![image](http://i64.tinypic.com/2u59jkj.png)
+```sh
+pod "lodash_utility"
+```
 
 ### Utility ###
 
