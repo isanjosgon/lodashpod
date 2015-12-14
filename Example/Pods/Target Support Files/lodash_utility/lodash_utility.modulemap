@@ -1,0 +1,6 @@
+framework module lodash_utility {
+  umbrella header "lodash_utility-umbrella.h"
+
+  export *
+  module * { export * }
+}

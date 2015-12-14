@@ -8,6 +8,8 @@
 
 #import "ISJViewController.h"
 
+#import <lodash_utility/lodash.h>
+
 @interface ISJViewController ()
 
 @end
@@ -18,6 +20,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSInteger __block count = 0;
+    NSInteger times = 10;
+    
+    _.times(times,^(NSInteger n){
+        count++;
+    });
+    
+    NSLog(@"%ld",(long)count);
 }
 
 - (void)didReceiveMemoryWarning

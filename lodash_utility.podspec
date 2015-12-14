@@ -1,40 +1,23 @@
-#
-# Be sure to run `pod lib lint lodash_utility.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "lodash_utility"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of lodash_utility."
+s.name             =  "lodash_utility"
+s.version          =  "1.0.0"
+s.summary          =  "Utility framework which provides productivity to the developer without losing performance"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+s.description      =  <<-DESC
+Lodash is a utility framework which provides productivity to the developer without losing performance. It is inspired by Javascript module https://github.com/lodash/lodash.
+DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/lodash_utility"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Isra San Jose Gonzalez" => "isanjosgon@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/lodash_utility.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         =  "https://github.com/isanjosgon/lodashpod.git"
+s.license          =  'MIT'
+s.author           =  { "Isra San Jose Gonzalez" => "isanjosgon@gmail.com" }
+s.source           =  { :git => "https://github.com/isanjosgon/lodashpod.git", :tag => s.version.to_s }
+s.social_media_url =  'https://twitter.com/isanjosgon'
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+s.platform     = :ios, '8.0'
+s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'lodash_utility' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.source_files = 'Pod/Classes/**/*'
+s.resource_bundles = {
+'async' => ['Pod/Assets/*.png']
+}
 end

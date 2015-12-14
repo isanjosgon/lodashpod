@@ -1,0 +1,14 @@
+PODS:
+  - lodash_utility (1.0.0)
+
+DEPENDENCIES:
+  - lodash_utility (from `../`)
+
+EXTERNAL SOURCES:
+  lodash_utility:
+    :path: ../
+
+SPEC CHECKSUMS:
+  lodash_utility: 8ccdf98fab5cb9d91396ee07844bfb4800663149
+
+COCOAPODS: 0.39.0
